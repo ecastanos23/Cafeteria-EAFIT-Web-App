@@ -36,17 +36,17 @@ Construida con **Next.js 14**, **TypeScript**, y diseño modular basado en compo
 
 ##  Estructura del proyecto
 /
-├── app/ # Rutas principales (Next.js App Router)
-├── components/ # Componentes UI reutilizables
-├── hooks/ # Hooks personalizados
-├── lib/ # Utilidades, helpers y lógica externa
-├── public/ # Imágenes, íconos y contenido estático
-├── scripts/ # Scripts adicionales
-├── styles/ # Archivos globales de estilos
-├── package.json # Dependencias del proyecto
-├── next.config.mjs # Configuración de Next.js
-├── tsconfig.json # Configuración de TypeScript
-└── .gitignore # Archivos ignorados por Git
+- ├── app/ # Rutas principales (Next.js App Router)
+- ├── components/ # Componentes UI reutilizables
+- ├── hooks/ # Hooks personalizados
+- ├── lib/ # Utilidades, helpers y lógica externa
+- ├── public/ # Imágenes, íconos y contenido estático
+- ├── scripts/ # Scripts adicionales
+- ├── styles/ # Archivos globales de estilos
+- ├── package.json # Dependencias del proyecto
+- ├── next.config.mjs # Configuración de Next.js
+- ├── tsconfig.json # Configuración de TypeScript
+- └── .gitignore # Archivos ignorados por Git
 
 ---
 
@@ -57,18 +57,25 @@ Construida con **Next.js 14**, **TypeScript**, y diseño modular basado en compo
 git clone https://github.com/ecastanos23/Cafeter-a-EAFIT-Web-App.git
 ```
 ### **2. Instalar dependencias**
-```bash
 Si usas npm:
+```bash
 npm install
 ```
-```bash
 Si usas pnpm:
+```bash
 pnpm install
 ```
 ### **3. Ejecutar en modo desarrollo**
+Si usas npm:
 ```bash
 npm run dev
+```
+Si usas pnpm:
+```bash
+pnpm dev
+```
 Luego abre:
+```bash
 http://localhost:3000
 ```
 
