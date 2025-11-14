@@ -88,6 +88,15 @@ La aplicación está desplegada usando **Vercel**.
 Cada push a **main** genera automáticamente un nuevo deploy.
 
 ---
+## Deploy con Vercel
+Si deseas deploy manual:
+```bash
+vercel deploy
+```
+Asegúrate de tener Vercel instalado:
+```bash
+npm install -g vercel
+```
 
 ## Autores
 Proyecto desarrollado por:
